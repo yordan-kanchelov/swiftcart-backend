@@ -1,4 +1,4 @@
-import { HttpService } from '@nestjs/axios';
+import { HttpService } from 'nestjs-axios-undici';
 import { HttpException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { AxiosError, Method } from 'axios';
