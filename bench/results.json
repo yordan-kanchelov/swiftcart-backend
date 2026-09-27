@@ -1,0 +1,110 @@
+{
+  "node": "v22.22.2",
+  "rounds": 5,
+  "duration": "20s",
+  "vus": 50,
+  "summary": {
+    "a": {
+      "label": "@nestjs/axios",
+      "rps": 1131.2726374185156,
+      "avgMs": 44.05010798457386,
+      "p95Ms": 59.891481,
+      "gatewayCpuMsPerRequest": 0.9572920798624884,
+      "failedChecks": 0
+    },
+    "b": {
+      "label": "nestjs-axios-undici",
+      "rps": 2007.083956089138,
+      "avgMs": 24.812952279936273,
+      "p95Ms": 33.8597635,
+      "gatewayCpuMsPerRequest": 0.5423501008039425,
+      "failedChecks": 0
+    }
+  },
+  "results": {
+    "a": [
+      {
+        "rps": 1129.3321703105762,
+        "avgMs": 44.133027128530266,
+        "p95Ms": 59.9340348,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.9630939226519337,
+        "requests": 22625
+      },
+      {
+        "rps": 1158.6319522478095,
+        "avgMs": 43.02758573033659,
+        "p95Ms": 58.85835179999999,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.9382407447312847,
+        "requests": 23203
+      },
+      {
+        "rps": 1131.2726374185156,
+        "avgMs": 44.05010798457386,
+        "p95Ms": 59.891481,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.9572920798624884,
+        "requests": 22689
+      },
+      {
+        "rps": 1146.9150019316075,
+        "avgMs": 43.46502143770417,
+        "p95Ms": 58.38962709999999,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.9469515644719091,
+        "requests": 22979
+      },
+      {
+        "rps": 1101.8193674593265,
+        "avgMs": 45.218947265534965,
+        "p95Ms": 62.506058499999995,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.9889115184430867,
+        "requests": 22095
+      }
+    ],
+    "b": [
+      {
+        "rps": 2029.8514672407275,
+        "avgMs": 24.53736077292859,
+        "p95Ms": 33.8597635,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.539555949392015,
+        "requests": 40626
+      },
+      {
+        "rps": 2007.083956089138,
+        "avgMs": 24.812952279936273,
+        "p95Ms": 33.6928676,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.5423501008039425,
+        "requests": 40177
+      },
+      {
+        "rps": 1977.627919784018,
+        "avgMs": 25.186751451474127,
+        "p95Ms": 34.882096999999995,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.5513303181140562,
+        "requests": 39577
+      },
+      {
+        "rps": 2023.9083737548174,
+        "avgMs": 24.609489931636396,
+        "p95Ms": 32.93027479999999,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.5414280071104088,
+        "requests": 40504
+      },
+      {
+        "rps": 1964.8675222568847,
+        "avgMs": 25.345920339377173,
+        "p95Ms": 33.86776019999999,
+        "failedChecks": 0,
+        "gatewayCpuMsPerRequest": 0.5574062301335029,
+        "requests": 39325
+      }
+    ]
+  }
+}

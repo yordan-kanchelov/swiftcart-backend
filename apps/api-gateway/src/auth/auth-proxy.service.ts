@@ -1,5 +1,5 @@
 import { forwardHttpRequest, LoginDto, RegisterDto } from '@app/common';
-import { HttpService } from '@nestjs/axios';
+import { HttpService } from 'nestjs-axios-undici';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 

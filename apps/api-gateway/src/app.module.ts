@@ -3,7 +3,7 @@ import {
   RequestLoggingMiddleware,
   envValidationSchema,
 } from '@app/common';
-import { HttpModule } from '@nestjs/axios';
+import { HttpModule } from 'nestjs-axios-undici';
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { PassportModule } from '@nestjs/passport';
